@@ -1,8 +1,10 @@
 # crawlStackExchangeDataExplorer
+Stack Exchange Data Explorer is a platform for users to query data in Stack Exchange sites.
+This is a script written in Python which can crawl the viewCount of questions in Stack Overflow.
+As there are 10 million questions in Stack Overflow recently and only 50 thousand results can be returned in Stack Exchange Data exploer, we need to write a program to repeate such steps and get the data automatically.
 
 ##Functions
-Stack Exchange Data Explorer is a platform for users to query data in Stack Exchange sites.
-This is a script written in Python that can 
+This script can 
 * automatically execute the SQL in that platform and download the result file;
 * remove the file from default download path to where we want;
 * aggregate all data into one file.
